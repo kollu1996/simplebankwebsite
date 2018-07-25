@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+<style>
+#bnkname
+{
+background-color:maroon;
+text-align:center;
+padding:10px;
+}
+#texthead
+{
+color:white;
+font-size:30px;
+}
+#logo
+{
+ float:left;
+ margin-top:-6%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+#kollu {
+    width: 15%;
+    border: 1px solid black;
+    padding: 1px solid black;
+    padding: 15px;
+    float:right;
+}
+</style>
+<div id="bnkname">
+<header>
+  <h1 id="texthead">Citizen's Trust Bank</h1>
+   <div id="logo">
+  <img src="mybank.png" alt="Trulli" width="150" height="80">
+  </div>
+</header>
+</div>
+<nav>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+</nav>
+<div id="kollu">
+<aside>
+<h2> Login </h2>
+<form method="post" action="action_page2.php">
+  User name:<br>
+  <br>
+  <input type="text" name="username">
+  <br>
+  <br>
+   Password:<br> <br>
+  <input type="password" name="password">
+  <br><br>
+  <input type="submit" value="Submit">
+ <input type="reset" value="reset">
+   <br>
+ 
+     <a href="first.html"> New user sign in here </a>
+</form> 
+</aside>
+</div>
+</body>

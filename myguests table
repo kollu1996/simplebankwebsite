@@ -1,0 +1,14 @@
+create table MyGuests
+     (
+       firstname VARCHAR(50),
+       secondname VARCHAR(50),
+       gender VARCHAR(50),
+       mobile VARCHAR(50)
+     );
+
+ create table secrete
+      (
+        username VARCHAR(50),
+        password VARCHAR(50),
+        balance INT(50) DEFAULT 0
+      );
