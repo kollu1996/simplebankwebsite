@@ -8,7 +8,7 @@ create table MyGuests
 
  create table secrete
       (
-        username VARCHAR(50),
-        password VARCHAR(50),
+        username VARCHAR(50) NOT NULL PRIMARY KEY,
+        password VARCHAR(50) NOT NULL,
         balance INT(50) DEFAULT 0
       );
